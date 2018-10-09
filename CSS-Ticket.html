@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS Homework</title>
+    <style>
+        body {
+            background-color: dimgray;
+        }
+        
+        .private-info {
+            color: lightgoldenrodyellow;
+        }
+        
+        .status {
+            color: orange;
+        }
+        
+        .response {
+            color: moccasin;
+        }
+        
+        .not-supported {
+            color: red;
+        }
+        
+        .first-letter::first-letter {
+            color: green;
+        }
+        
+        .data {
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <td class="data" valign="top">Name:</td>
+            <td class="private-info first-letter">●Parker Seidel</td>
+            <tr>
+                <td></td>
+                <td class="not-supported">No Active Support</td>
+            </tr>
+        </tr>
+        <tr>
+            <td class="data">Email:</td>
+            <td class="private-info">seidel@aptmail.com</td>
+        </tr>
+        <tr>
+            <td class="data">Response Time:</td>
+            <td class="response">72hours, 60hours left</td>
+        </tr>
+        <tr>
+            <td class="data" valign="top">Last Action:</td>
+            <td class="response">Never been locked.</td>
+            <tr>
+                <td></td>
+                <td class="private-info">Link to public post.</td>
+            </tr>
+        </tr>
+        <tr>
+            <td class="data">Status:</td>
+            <td class="status">Not Answered:</td>
+        </tr>
+    </table>
+</body>
+
+</html>

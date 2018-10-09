@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Nested tables</title>
+        <style>
+        td { border: 1px solid black;
+        }
+
+        </style>
+    </head>
+    <body>
+        <table cellspacing="5" cellpadding="10">
+            <tr>
+                <td rowspan="2">Contact:</td>
+                <td>
+                    <table cellpadding="10" cellspacing="5">
+                        <tr>
+                            <td>Pesho</td>
+                            <td>25</td>
+                        </tr>
+                        <td>Bulgaria</td>
+                        <td>Sofia</td>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: center">Second cell</td>
+            </tr>
+        </table>
+    </body>
+</html>
