@@ -328,6 +328,12 @@ body aside>ul>li ul {
     margin-left: 0px;
 }
 
+
+body aside>ul>li>ul li:before {
+  content: "\026AC";
+  margin: 0;
+  color: #e013d8;
+}
 body aside>ul>li ul li {
     margin-top: 5px;
     margin-left: 10px;
